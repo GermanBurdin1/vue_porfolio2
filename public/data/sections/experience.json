@@ -1,0 +1,512 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2024, "month": 11},
+                    "dateEnd": null,
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIconColor": "#2563eb",
+
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Developer (Work-Study Program)",
+                            "description": "Currently working as a <strong>Full Stack Developer</strong> in a work-study program, gaining hands-on experience in web and mobile development. Designing, developing, and optimizing web solutions for dynamic display at <strong>ScreenSoft</strong>.",
+                            "list": {
+                                "title": "Key Responsibilities",
+                                "items": [
+                                    "Conception, développement et optimisation de <strong>solutions web et mobiles</strong> pour l'affichage dynamique",
+                                    "Collaboration avec l'équipe technique pour la <strong>mise en œuvre</strong> de nouvelles fonctionnalités",
+                                    "Participation au <strong>cycle de développement complet</strong> des applications",
+                                    "Utilisation de technologies <strong>front-end et back-end</strong> modernes"
+                                ]
+                            },
+                            "province": "Metz",
+                            "country": "France",
+                            "institution": "Multimedia Concept",
+                            "tags": ["Full Stack", "Web Development", "Mobile Development", "JavaScript", "PHP"]
+                        },
+
+                        "es": {
+                            "title": "Desarrollador Full Stack (Alternancia)",
+                            "description": "Actualmente trabajando como <strong>Desarrollador Full Stack</strong> en un programa de alternancia, adquiriendo experiencia práctica en desarrollo web y móvil. Diseñando, desarrollando y optimizando soluciones web para visualización dinámica en <strong>ScreenSoft</strong>.",
+                            "list": {
+                                "title": "Responsabilidades Clave",
+                                "items": [
+                                    "Concepción, desarrollo y optimización de <strong>soluciones web y móviles</strong> para visualización dinámica",
+                                    "Colaboración con el equipo técnico para la <strong>implementación</strong> de nuevas funcionalidades",
+                                    "Participación en el <strong>ciclo de desarrollo completo</strong> de aplicaciones",
+                                    "Uso de tecnologías <strong>front-end y back-end</strong> modernas"
+                                ]
+                            },
+                            "province": "Metz",
+                            "country": "Francia",
+                            "institution": "Multimedia Concept",
+                            "tags": ["Full Stack", "Desarrollo Web", "Desarrollo Móvil", "JavaScript", "PHP"]
+                        },
+
+                        "fr": {
+                            "title": "Développeur Full Stack (Alternance)",
+                            "description": "Actuellement en poste de <strong>Développeur Full Stack</strong> en alternance, acquérant une expérience pratique en développement web et mobile. Conception, développement et optimisation de solutions web pour l'affichage dynamique au sein de <strong>ScreenSoft</strong>.",
+                            "list": {
+                                "title": "Responsabilités Principales",
+                                "items": [
+                                    "Conception, développement et optimisation de <strong>solutions web et mobiles</strong> pour l'affichage dynamique",
+                                    "Collaboration avec l'équipe technique pour la <strong>mise en œuvre</strong> de nouvelles fonctionnalités",
+                                    "Participation au <strong>cycle de développement complet</strong> des applications",
+                                    "Utilisation de technologies <strong>front-end et back-end</strong> modernes"
+                                ]
+                            },
+                            "province": "Metz",
+                            "country": "France",
+                            "institution": "Multimedia Concept",
+                            "tags": ["Full Stack", "Développement Web", "Développement Mobile", "JavaScript", "PHP"]
+                        },
+
+                        "zh": {
+                            "title": "全栈开发者（工学交替）",
+                            "description": "目前在ScreenSoft担任<strong>全栈开发者</strong>，通过工学交替项目获得网页和移动开发的实践经验。为动态显示设计、开发和优化网页解决方案。",
+                            "list": {
+                                "title": "主要职责",
+                                "items": [
+                                    "为动态显示<strong>设计、开发和优化网页及移动解决方案</strong>",
+                                    "与技术团队协作<strong>实施</strong>新功能",
+                                    "参与应用程序的<strong>完整开发周期</strong>",
+                                    "使用现代<strong>前端和后端</strong>技术"
+                                ]
+                            },
+                            "province": "梅斯",
+                            "country": "法国",
+                            "institution": "Multimedia Concept",
+                            "tags": ["全栈", "网页开发", "移动开发", "JavaScript", "PHP"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2023, "month": 1},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-industry",
+                    "fallbackFaIconColor": "#059669",
+
+                    "locales": {
+                        "en": {
+                            "title": "Production Agent",
+                            "description": "Worked as a production agent in the food industry, developing <strong>organizational skills</strong> and <strong>attention to detail</strong>. Gained experience in team coordination and quality control processes.",
+                            "list": {
+                                "title": "Key Responsibilities",
+                                "items": [
+                                    "Travail dans l'atelier de <strong>mélange, du packaging, des épices</strong> et du conditionnement",
+                                    "Respect des <strong>normes de qualité</strong> et de sécurité alimentaire",
+                                    "Collaboration en <strong>équipe</strong> pour optimiser la production",
+                                    "Gestion des <strong>délais</strong> et organisation du travail"
+                                ]
+                            },
+                            "province": "Brittany",
+                            "country": "France",
+                            "institution": "Guyader Gastronomie",
+                            "tags": ["Production", "Quality Control", "Team Work", "Food Industry"]
+                        },
+
+                        "es": {
+                            "title": "Agente de Producción",
+                            "description": "Trabajó como agente de producción en la industria alimentaria, desarrollando <strong>habilidades organizacionales</strong> y <strong>atención al detalle</strong>. Adquirió experiencia en coordinación de equipos y procesos de control de calidad.",
+                            "list": {
+                                "title": "Responsabilidades Clave",
+                                "items": [
+                                    "Trabajo en el taller de <strong>mezcla, packaging, especias</strong> y acondicionamiento",
+                                    "Respeto de las <strong>normas de calidad</strong> y seguridad alimentaria",
+                                    "Colaboración en <strong>equipo</strong> para optimizar la producción",
+                                    "Gestión de <strong>plazos</strong> y organización del trabajo"
+                                ]
+                            },
+                            "province": "Bretaña",
+                            "country": "Francia",
+                            "institution": "Guyader Gastronomie",
+                            "tags": ["Producción", "Control de Calidad", "Trabajo en Equipo", "Industria Alimentaria"]
+                        },
+
+                        "fr": {
+                            "title": "Agent de Production",
+                            "description": "A travaillé comme agent de production dans l'industrie alimentaire, développant des <strong>compétences organisationnelles</strong> et un <strong>souci du détail</strong>. Acquisition d'expérience en coordination d'équipe et processus de contrôle qualité.",
+                            "list": {
+                                "title": "Responsabilités Principales",
+                                "items": [
+                                    "Travail dans l'atelier du <strong>mélange, du packaging, des épices</strong> et du conditionnement",
+                                    "Respect des <strong>normes de qualité</strong> et de sécurité alimentaire",
+                                    "Collaboration en <strong>équipe</strong> pour optimiser la production",
+                                    "Gestion des <strong>délais</strong> et organisation du travail"
+                                ]
+                            },
+                            "province": "Bretagne",
+                            "country": "France",
+                            "institution": "Guyader Gastronomie",
+                            "tags": ["Production", "Contrôle Qualité", "Travail d'Équipe", "Industrie Alimentaire"]
+                        },
+
+                        "zh": {
+                            "title": "生产代理",
+                            "description": "在食品工业担任生产代理，培养了<strong>组织技能</strong>和<strong>注重细节</strong>的能力。在团队协调和质量控制流程方面获得经验。",
+                            "list": {
+                                "title": "主要职责",
+                                "items": [
+                                    "在<strong>混合、包装、香料</strong>和调理车间工作",
+                                    "遵守<strong>质量标准</strong>和食品安全规范",
+                                    "团队协作<strong>优化生产</strong>",
+                                    "管理<strong>交期</strong>和工作组织"
+                                ]
+                            },
+                            "province": "布列塔尼",
+                            "country": "法国",
+                            "institution": "Guyader Gastronomie",
+                            "tags": ["生产", "质量控制", "团队合作", "食品工业"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2022, "month": 1},
+                    "dateEnd": {"year": 2022, "month": 6},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-briefcase",
+                    "fallbackFaIconColor": "#f59e0b",
+
+                    "locales": {
+                        "en": {
+                            "title": "Interim Missions",
+                            "description": "Completed various <strong>temporary assignments</strong> in different sectors, demonstrating <strong>adaptability</strong> and <strong>versatility</strong>. Gained experience working with diverse teams and adapting quickly to new work environments.",
+                            "list": {
+                                "title": "Key Achievements",
+                                "items": [
+                                    "Missions d'intérim dans <strong>différents secteurs</strong> (y compris travail en usines)",
+                                    "<strong>Adaptation rapide</strong> aux nouveaux environnements de travail",
+                                    "Développement de la <strong>flexibilité</strong> et de la polyvalence",
+                                    "Expérience avec des <strong>équipes diversifiées</strong>"
+                                ]
+                            },
+                            "province": "Various locations",
+                            "country": "France",
+                            "institution": "Various Companies",
+                            "tags": ["Adaptability", "Flexibility", "Temporary Work", "Multi-sector Experience"]
+                        },
+
+                        "es": {
+                            "title": "Misiones de Interinidad",
+                            "description": "Completó varias <strong>asignaciones temporales</strong> en diferentes sectores, demostrando <strong>adaptabilidad</strong> y <strong>versatilidad</strong>. Adquirió experiencia trabajando con equipos diversos y adaptándose rápidamente a nuevos entornos laborales.",
+                            "list": {
+                                "title": "Logros Clave",
+                                "items": [
+                                    "Misiones de interinidad en <strong>diferentes sectores</strong> (incluido trabajo en fábricas)",
+                                    "<strong>Adaptación rápida</strong> a nuevos entornos de trabajo",
+                                    "Desarrollo de <strong>flexibilidad</strong> y versatilidad",
+                                    "Experiencia con <strong>equipos diversificados</strong>"
+                                ]
+                            },
+                            "province": "Varias ubicaciones",
+                            "country": "Francia",
+                            "institution": "Varias Empresas",
+                            "tags": ["Adaptabilidad", "Flexibilidad", "Trabajo Temporal", "Experiencia Multi-sectorial"]
+                        },
+
+                        "fr": {
+                            "title": "Missions d'Intérim",
+                            "description": "Réalisation de diverses <strong>missions temporaires</strong> dans différents secteurs, démontrant <strong>adaptabilité</strong> et <strong>polyvalence</strong>. Acquisition d'expérience en travaillant avec des équipes diverses et en s'adaptant rapidement aux nouveaux environnements de travail.",
+                            "list": {
+                                "title": "Réalisations Principales",
+                                "items": [
+                                    "Missions d'intérim dans <strong>différents secteurs</strong> (y compris travail en usines)",
+                                    "<strong>Adaptation rapide</strong> aux nouveaux environnements de travail",
+                                    "Développement de la <strong>flexibilité</strong> et de la polyvalence",
+                                    "Expérience avec des <strong>équipes diversifiées</strong>"
+                                ]
+                            },
+                            "province": "Divers lieux",
+                            "country": "France",
+                            "institution": "Diverses Entreprises",
+                            "tags": ["Adaptabilité", "Flexibilité", "Travail Temporaire", "Expérience Multi-sectorielle"]
+                        },
+
+                        "zh": {
+                            "title": "临时任务",
+                            "description": "在不同行业完成各种<strong>临时任务</strong>，展现了<strong>适应性</strong>和<strong>多样性</strong>。在与不同团队合作和快速适应新工作环境方面获得经验。",
+                            "list": {
+                                "title": "主要成就",
+                                "items": [
+                                    "在<strong>不同行业</strong>执行临时任务（包括工厂工作）",
+                                    "快速<strong>适应</strong>新工作环境",
+                                    "培养<strong>灵活性</strong>和多样性",
+                                    "与<strong>多元化团队</strong>合作经验"
+                                ]
+                            },
+                            "province": "多个地点",
+                            "country": "法国",
+                            "institution": "多家公司",
+                            "tags": ["适应性", "灵活性", "临时工作", "多行业经验"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2020, "month": 1},
+                    "dateEnd": {"year": 2021, "month": 10},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#8b5cf6",
+
+                    "locales": {
+                        "en": {
+                            "title": "No-Code Web Developer",
+                            "description": "Developed <strong>websites and web applications</strong> using no-code platforms and tools. Gained foundational experience in web development concepts and <strong>user interface design</strong>.",
+                            "list": {
+                                "title": "Key Achievements",
+                                "items": [
+                                    "Conception des <strong>sites web</strong> sur des constructeurs de sites",
+                                    "Développement d'applications web <strong>sans code</strong>",
+                                    "Apprentissage des <strong>concepts de développement web</strong>",
+                                    "Expérience en <strong>design d'interface utilisateur</strong>"
+                                ]
+                            },
+                            "province": "Remote",
+                            "country": "France",
+                            "institution": "Freelance",
+                            "tags": ["No-Code Development", "Web Design", "UI Design", "Website Building"]
+                        },
+
+                        "es": {
+                            "title": "Desarrollador Web No-Code",
+                            "description": "Desarrolló <strong>sitios web y aplicaciones web</strong> utilizando plataformas y herramientas no-code. Adquirió experiencia fundamental en conceptos de desarrollo web y <strong>diseño de interfaz de usuario</strong>.",
+                            "list": {
+                                "title": "Logros Clave",
+                                "items": [
+                                    "Diseño de <strong>sitios web</strong> en constructores de sitios",
+                                    "Desarrollo de aplicaciones web <strong>sin código</strong>",
+                                    "Aprendizaje de <strong>conceptos de desarrollo web</strong>",
+                                    "Experiencia en <strong>diseño de interfaz de usuario</strong>"
+                                ]
+                            },
+                            "province": "Remoto",
+                            "country": "Francia",
+                            "institution": "Freelance",
+                            "tags": ["Desarrollo No-Code", "Diseño Web", "Diseño UI", "Construcción de Sitios Web"]
+                        },
+
+                        "fr": {
+                            "title": "Développeur Web No-Code",
+                            "description": "Développement de <strong>sites web et d'applications web</strong> en utilisant des plateformes et outils no-code. Acquisition d'une expérience fondamentale dans les concepts de développement web et le <strong>design d'interface utilisateur</strong>.",
+                            "list": {
+                                "title": "Réalisations Principales",
+                                "items": [
+                                    "Conception des <strong>sites web</strong> sur des constructeurs de sites",
+                                    "Développement d'applications web <strong>sans code</strong>",
+                                    "Apprentissage des <strong>concepts de développement web</strong>",
+                                    "Expérience en <strong>design d'interface utilisateur</strong>"
+                                ]
+                            },
+                            "province": "Télétravail",
+                            "country": "France",
+                            "institution": "Freelance",
+                            "tags": ["Développement No-Code", "Design Web", "Design UI", "Construction de Sites Web"]
+                        },
+
+                        "zh": {
+                            "title": "无代码网页开发者",
+                            "description": "使用无代码平台和工具开发<strong>网站和网页应用</strong>。在网页开发概念和<strong>用户界面设计</strong>方面获得基础经验。",
+                            "list": {
+                                "title": "主要成就",
+                                "items": [
+                                    "在网站构建器上设计<strong>网站</strong>",
+                                    "开发<strong>无代码</strong>网页应用",
+                                    "学习<strong>网页开发概念</strong>",
+                                    "<strong>用户界面设计</strong>经验"
+                                ]
+                            },
+                            "province": "远程",
+                            "country": "法国",
+                            "institution": "自由职业",
+                            "tags": ["无代码开发", "网页设计", "UI设计", "网站建设"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "dateStart": {"year": 2019, "month": 9},
+                    "dateEnd": {"year": 2019, "month": 12},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-language",
+                    "fallbackFaIconColor": "#dc2626",
+
+                    "locales": {
+                        "en": {
+                            "title": "Translator - Interpreter",
+                            "description": "Worked as a <strong>French and Russian translator and interpreter</strong> in the maritime industry. Applied <strong>multilingual skills</strong> and <strong>cross-cultural communication</strong> abilities in a professional setting.",
+                            "list": {
+                                "title": "Key Responsibilities",
+                                "items": [
+                                    "Traduction du <strong>français et du russe</strong> vers le russe dans le domaine de <strong>la construction des sous-marins</strong>",
+                                    "Interprétation lors de <strong>réunions techniques</strong>",
+                                    "Communication <strong>interculturelle</strong> entre équipes",
+                                    "Adaptation des <strong>terminologies techniques</strong>"
+                                ]
+                            },
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russia",
+                            "institution": "TTP Marines (agence de traduction)",
+                            "tags": ["Translation", "Interpretation", "French", "Russian", "Maritime Industry"]
+                        },
+
+                        "es": {
+                            "title": "Traductor - Intérprete",
+                            "description": "Trabajó como <strong>traductor e intérprete de francés y ruso</strong> en la industria marítima. Aplicó <strong>habilidades multilingües</strong> y capacidades de <strong>comunicación intercultural</strong> en un entorno profesional.",
+                            "list": {
+                                "title": "Responsabilidades Clave",
+                                "items": [
+                                    "Traducción del <strong>francés y ruso</strong> al ruso en el campo de <strong>la construcción de submarinos</strong>",
+                                    "Interpretación durante <strong>reuniones técnicas</strong>",
+                                    "Comunicación <strong>intercultural</strong> entre equipos",
+                                    "Adaptación de <strong>terminologías técnicas</strong>"
+                                ]
+                            },
+                            "province": "San Petersburgo",
+                            "country": "Rusia",
+                            "institution": "TTP Marines (agencia de traducción)",
+                            "tags": ["Traducción", "Interpretación", "Francés", "Ruso", "Industria Marítima"]
+                        },
+
+                        "fr": {
+                            "title": "Traducteur - Interprète",
+                            "description": "A travaillé comme <strong>traducteur et interprète français et russe</strong> dans l'industrie maritime. Application des <strong>compétences multilingues</strong> et des capacités de <strong>communication interculturelle</strong> dans un cadre professionnel.",
+                            "list": {
+                                "title": "Responsabilités Principales",
+                                "items": [
+                                    "Traduction du <strong>français et du russe</strong> vers le russe dans le domaine de <strong>la construction des sous-marins</strong>",
+                                    "Interprétation lors de <strong>réunions techniques</strong>",
+                                    "Communication <strong>interculturelle</strong> entre équipes",
+                                    "Adaptation des <strong>terminologies techniques</strong>"
+                                ]
+                            },
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russie",
+                            "institution": "TTP Marines (agence de traduction)",
+                            "tags": ["Traduction", "Interprétation", "Français", "Russe", "Industrie Maritime"]
+                        },
+
+                        "zh": {
+                            "title": "翻译 - 口译",
+                            "description": "在海事行业担任<strong>法语和俄语翻译和口译</strong>。在专业环境中应用<strong>多语言技能</strong>和<strong>跨文化交流</strong>能力。",
+                            "list": {
+                                "title": "主要职责",
+                                "items": [
+                                    "在<strong>潜艇建造</strong>领域进行<strong>法语和俄语</strong>到俄语的翻译",
+                                    "在<strong>技术会议</strong>期间担任口译",
+                                    "团队间<strong>跨文化</strong>交流",
+                                    "适应<strong>技术术语</strong>"
+                                ]
+                            },
+                            "province": "圣彼得堡",
+                            "country": "俄罗斯",
+                            "institution": "TTP Marines（翻译机构）",
+                            "tags": ["翻译", "口译", "法语", "俄语", "海事行业"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 6,
+                    "dateStart": {"year": 2017, "month": 9},
+                    "dateEnd": {"year": 2017, "month": 12},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-chart-line",
+                    "fallbackFaIconColor": "#059669",
+
+                    "locales": {
+                        "en": {
+                            "title": "Sales Manager",
+                            "description": "Worked as a <strong>sales manager</strong> responsible for construction materials sales on construction sites. Developed <strong>client relationships</strong> and <strong>sales strategies</strong> for complex construction projects.",
+                            "list": {
+                                "title": "Key Achievements",
+                                "items": [
+                                    "Responsable des produits de <strong>Baumit</strong> | Saint-Pétersbourg",
+                                    "Distribution des <strong>matériaux de constructions</strong> sur des chantiers des complexes immobiliers",
+                                    "Développement de <strong>relations clients</strong>",
+                                    "Gestion des <strong>stratégies de vente</strong>"
+                                ]
+                            },
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russia",
+                            "institution": "Construction Materials Company",
+                            "tags": ["Sales Management", "Construction Materials", "Client Relations", "B2B Sales"]
+                        },
+
+                        "es": {
+                            "title": "Responsable de Ventas",
+                            "description": "Trabajó como <strong>responsable de ventas</strong> encargado de la venta de materiales de construcción en obras. Desarrolló <strong>relaciones con clientes</strong> y <strong>estrategias de venta</strong> para proyectos de construcción complejos.",
+                            "list": {
+                                "title": "Logros Clave",
+                                "items": [
+                                    "Responsable de productos <strong>Baumit</strong> | San Petersburgo",
+                                    "Distribución de <strong>materiales de construcción</strong> en obras de complejos inmobiliarios",
+                                    "Desarrollo de <strong>relaciones con clientes</strong>",
+                                    "Gestión de <strong>estrategias de venta</strong>"
+                                ]
+                            },
+                            "province": "San Petersburgo",
+                            "country": "Rusia",
+                            "institution": "Empresa de Materiales de Construcción",
+                            "tags": ["Gestión de Ventas", "Materiales de Construcción", "Relaciones con Clientes", "Ventas B2B"]
+                        },
+
+                        "fr": {
+                            "title": "Responsable des Ventes",
+                            "description": "A travaillé comme <strong>responsable des ventes</strong> chargé de la vente de matériaux de construction sur les chantiers. Développement de <strong>relations clients</strong> et de <strong>stratégies de vente</strong> pour des projets de construction complexes.",
+                            "list": {
+                                "title": "Réalisations Principales",
+                                "items": [
+                                    "Responsable des produits de <strong>Baumit</strong> | Saint-Pétersbourg",
+                                    "Distribution des <strong>matériaux de constructions</strong> sur des chantiers des complexes immobiliers",
+                                    "Développement de <strong>relations clients</strong>",
+                                    "Gestion des <strong>stratégies de vente</strong>"
+                                ]
+                            },
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russie",
+                            "institution": "Entreprise de Matériaux de Construction",
+                            "tags": ["Gestion des Ventes", "Matériaux de Construction", "Relations Clients", "Ventes B2B"]
+                        },
+
+                        "zh": {
+                            "title": "销售经理",
+                            "description": "担任<strong>销售经理</strong>，负责在建筑工地销售建筑材料。为复杂的建筑项目发展<strong>客户关系</strong>和<strong>销售策略</strong>。",
+                            "list": {
+                                "title": "主要成就",
+                                "items": [
+                                    "负责<strong>Baumit</strong>产品 | 圣彼得堡",
+                                    "在房地产项目工地分销<strong>建筑材料</strong>",
+                                    "发展<strong>客户关系</strong>",
+                                    "管理<strong>销售策略</strong>"
+                                ]
+                            },
+                            "province": "圣彼得堡",
+                            "country": "俄罗斯",
+                            "institution": "建筑材料公司",
+                            "tags": ["销售管理", "建筑材料", "客户关系", "B2B销售"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

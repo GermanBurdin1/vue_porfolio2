@@ -1,0 +1,47 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "iconName": "fa-solid fa-house",
+            "locales": {
+                "en": { "title": "Home" },
+                "es": { "title": "Inicio" },
+                "fr": { "title": "Accueil" },
+                "zh": { "title": "首页" }
+            }
+        },
+
+        {
+            "id": "background",
+            "iconName": "fa-solid fa-user",
+            "locales": {
+                "en": { "title": "Background" },
+                "es": { "title": "Formación" },
+                "fr": { "title": "Formation" },
+                "zh": { "title": "背景" }
+            }
+        },
+
+        {
+            "id": "showcase",
+            "iconName": "fa-solid fa-briefcase",
+            "locales": {
+                "en": { "title": "Skills" },
+                "es": { "title": "Habilidades" },
+                "fr": { "title": "Compétences" },
+                "zh": { "title": "技能" }
+            }
+        },
+
+        {
+            "id": "contact",
+            "iconName": "fa-solid fa-envelope",
+            "locales": {
+                "en": { "title": "Contact" },
+                "es": { "title": "Contacto" },
+                "fr": { "title": "Contact" },
+                "zh": { "title": "联系" }
+            }
+        }
+    ]
+}

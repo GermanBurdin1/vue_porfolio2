@@ -1,0 +1,371 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2023, "month": 10},
+                    "dateEnd": null,
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIconColor": "#2563eb",
+
+                    "locales": {
+                        "en": {
+                            "title": "RNCP Title \"Web and Mobile Web Developer\" - Web Developer-Integrator",
+                            "description": "Currently pursuing a professional certification in web development covering modern technologies and frameworks. Gaining expertise in both front-end and back-end development with hands-on project experience.",
+                            "province": "Metz",
+                            "country": "France",
+                            "institution": "Metz Numeric School",
+                            "tags": ["Web Development", "Mobile Development", "Full Stack"]
+                        },
+
+                        "es": {
+                            "title": "Título RNCP \"Desarrollador Web y Web Móvil\" - Desarrollador-Integrador Web",
+                            "description": "Actualmente cursando una certificación profesional en desarrollo web que cubre tecnologías y frameworks modernos. Adquiriendo experiencia en desarrollo tanto front-end como back-end con experiencia práctica en proyectos.",
+                            "province": "Metz",
+                            "country": "Francia",
+                            "institution": "Metz Numeric School",
+                            "tags": ["Desarrollo Web", "Desarrollo Móvil", "Full Stack"]
+                        },
+
+                        "fr": {
+                            "title": "Titre RNCP « Développeur Web et Web mobile » - Développeur-Intégrateur Web",
+                            "description": "Actuellement en formation pour l'obtention d'une certification professionnelle en développement web couvrant les technologies et frameworks modernes. Acquisition d'expertise en développement front-end et back-end avec une expérience pratique sur des projets.",
+                            "province": "Metz",
+                            "country": "France",
+                            "institution": "Metz Numeric School",
+                            "tags": ["Développement Web", "Développement Mobile", "Full Stack"]
+                        },
+
+                        "zh": {
+                            "title": "RNCP认证「网页和移动网页开发者」- 网页开发者集成师",
+                            "description": "目前正在攻读网页开发专业认证，涵盖现代技术和框架。通过实际项目经验获得前端和后端开发专业知识。",
+                            "province": "梅斯",
+                            "country": "法国",
+                            "institution": "梅斯数字学院",
+                            "tags": ["网页开发", "移动开发", "全栈"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2013, "month": 9},
+                    "dateEnd": {"year": 2017, "month": 6},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-globe",
+                    "fallbackFaIconColor": "#059669",
+
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor's Degree - International Relations",
+                            "description": "Completed a comprehensive program in international relations, developing strong analytical, communication, and problem-solving skills. Gained expertise in geopolitics, diplomacy, and cross-cultural communication.",
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russia",
+                            "institution": "Saint Petersburg State University",
+                            "tags": ["International Relations", "Geopolitics", "Diplomacy", "Cross-cultural Communication"]
+                        },
+
+                        "es": {
+                            "title": "Licenciatura - Relaciones Internacionales",
+                            "description": "Completó un programa integral en relaciones internacionales, desarrollando fuertes habilidades analíticas, de comunicación y resolución de problemas. Adquirió experiencia en geopolítica, diplomacia y comunicación intercultural.",
+                            "province": "San Petersburgo",
+                            "country": "Rusia",
+                            "institution": "Universidad Estatal de San Petersburgo",
+                            "tags": ["Relaciones Internacionales", "Geopolítica", "Diplomacia", "Comunicación Intercultural"]
+                        },
+
+                        "fr": {
+                            "title": "Licence - Relations Internationales",
+                            "description": "Formation complète en relations internationales, développement de solides compétences analytiques, de communication et de résolution de problèmes. Acquisition d'expertise en géopolitique, diplomatie et communication interculturelle.",
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russie",
+                            "institution": "Université d'État de Saint-Pétersbourg",
+                            "tags": ["Relations Internationales", "Géopolitique", "Diplomatie", "Communication Interculturelle"]
+                        },
+
+                        "zh": {
+                            "title": "学士学位 - 国际关系",
+                            "description": "完成国际关系综合课程，培养了强大的分析、沟通和问题解决能力。在地缘政治、外交和跨文化交流方面获得专业知识。",
+                            "province": "圣彼得堡",
+                            "country": "俄罗斯",
+                            "institution": "圣彼得堡国立大学",
+                            "tags": ["国际关系", "地缘政治", "外交", "跨文化交流"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2012, "month": 9},
+                    "dateEnd": {"year": 2013, "month": 6},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-briefcase",
+                    "fallbackFaIconColor": "#dc2626",
+
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor's Degree - Organizational Management",
+                            "description": "Studied organizational management principles, business strategy, and leadership. Developed understanding of corporate structures, project management, and team coordination.",
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russia",
+                            "institution": "Institute of Business and Law, Saint Petersburg",
+                            "tags": ["Management", "Business Strategy", "Leadership", "Project Management"]
+                        },
+
+                        "es": {
+                            "title": "Licenciatura - Gestión Organizacional",
+                            "description": "Estudió principios de gestión organizacional, estrategia empresarial y liderazgo. Desarrolló comprensión de estructuras corporativas, gestión de proyectos y coordinación de equipos.",
+                            "province": "San Petersburgo",
+                            "country": "Rusia",
+                            "institution": "Instituto de Negocios y Derecho, San Petersburgo",
+                            "tags": ["Gestión", "Estrategia Empresarial", "Liderazgo", "Gestión de Proyectos"]
+                        },
+
+                        "fr": {
+                            "title": "Licence - Management des Organisations",
+                            "description": "Étude des principes de gestion organisationnelle, stratégie d'entreprise et leadership. Développement de la compréhension des structures d'entreprise, gestion de projet et coordination d'équipe.",
+                            "province": "Saint-Pétersbourg",
+                            "country": "Russie",
+                            "institution": "Institut de Business et de Droit, Saint-Pétersbourg",
+                            "tags": ["Management", "Stratégie d'Entreprise", "Leadership", "Gestion de Projet"]
+                        },
+
+                        "zh": {
+                            "title": "学士学位 - 组织管理",
+                            "description": "学习组织管理原理、商业策略和领导力。深入了解企业结构、项目管理和团队协调。",
+                            "province": "圣彼得堡",
+                            "country": "俄罗斯",
+                            "institution": "圣彼得堡商业与法律学院",
+                            "tags": ["管理", "商业策略", "领导力", "项目管理"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": {"year": 2009, "month": 9},
+                    "dateEnd": {"year": 2012, "month": 6},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "fallbackFaIconColor": "#7c3aed",
+
+                    "locales": {
+                        "en": {
+                            "title": "Baccalauréat in Economic and Social Sciences",
+                            "description": "Completed high school education with specialization in economic and social sciences. Built foundation in economics, sociology, and analytical thinking.",
+                            "province": "Lannion",
+                            "country": "France",
+                            "institution": "Lycée général et technologique Félix Le Dantec",
+                            "tags": ["Economics", "Social Sciences", "Analytics"]
+                        },
+
+                        "es": {
+                            "title": "Bachillerato en Ciencias Económicas y Sociales",
+                            "description": "Completó la educación secundaria con especialización en ciencias económicas y sociales. Construyó una base en economía, sociología y pensamiento analítico.",
+                            "province": "Lannion",
+                            "country": "Francia",
+                            "institution": "Lycée général et technologique Félix Le Dantec",
+                            "tags": ["Economía", "Ciencias Sociales", "Análisis"]
+                        },
+
+                        "fr": {
+                            "title": "Baccalauréat Sciences Économiques et Sociales",
+                            "description": "Formation secondaire complétée avec spécialisation en sciences économiques et sociales. Construction d'une base solide en économie, sociologie et pensée analytique.",
+                            "province": "Lannion",
+                            "country": "France",
+                            "institution": "Lycée général et technologique Félix Le Dantec",
+                            "tags": ["Économie", "Sciences Sociales", "Analyse"]
+                        },
+
+                        "zh": {
+                            "title": "经济社会科学学士学位",
+                            "description": "完成经济社会科学专业的高中教育。在经济学、社会学和分析思维方面奠定基础。",
+                            "province": "朗尼永",
+                            "country": "法国",
+                            "institution": "费利克斯·勒丹泰克综合技术高中",
+                            "tags": ["经济学", "社会科学", "分析"]
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleTimeline",
+            "locales": {
+                "en": {
+                    "title": "Self-Learning & Certifications",
+                    "description": "Continuous learning through online platforms and professional development courses."
+                },
+                "es": {
+                    "title": "Autoaprendizaje y Certificaciones",
+                    "description": "Aprendizaje continuo a través de plataformas en línea y cursos de desarrollo profesional."
+                },
+                "fr": {
+                    "title": "Formation en Autodidacte",
+                    "description": "Apprentissage continu via des plateformes en ligne et des cours de développement professionnel."
+                },
+                "zh": {
+                    "title": "自学与认证",
+                    "description": "通过在线平台和职业发展课程持续学习。"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2023, "month": 1},
+                    "dateEnd": {"year": 2023, "month": 10},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#f59e0b",
+
+                    "locales": {
+                        "en": {
+                            "title": "Web Development - HTML Academy",
+                            "description": "Intensive web development course focusing on modern HTML, CSS, and JavaScript. Completed practical projects and gained hands-on experience with responsive design and interactive web applications.",
+                            "province": "Online",
+                            "country": "",
+                            "institution": "HTML Academy",
+                            "tags": ["HTML", "CSS", "JavaScript", "Responsive Design"]
+                        },
+
+                        "es": {
+                            "title": "Desarrollo Web - HTML Academy",
+                            "description": "Curso intensivo de desarrollo web enfocado en HTML, CSS y JavaScript modernos. Completó proyectos prácticos y obtuvo experiencia práctica con diseño responsivo y aplicaciones web interactivas.",
+                            "province": "En línea",
+                            "country": "",
+                            "institution": "HTML Academy",
+                            "tags": ["HTML", "CSS", "JavaScript", "Diseño Responsivo"]
+                        },
+
+                        "fr": {
+                            "title": "Développement Web - HTML Academy",
+                            "description": "Formation intensive en développement web axée sur le HTML, CSS et JavaScript modernes. Réalisation de projets pratiques et acquisition d'expérience pratique avec le design responsive et les applications web interactives.",
+                            "province": "En ligne",
+                            "country": "",
+                            "institution": "HTML Academy",
+                            "tags": ["HTML", "CSS", "JavaScript", "Design Responsive"]
+                        },
+
+                        "zh": {
+                            "title": "网页开发 - HTML Academy",
+                            "description": "专注于现代HTML、CSS和JavaScript的密集网页开发课程。完成实践项目，获得响应式设计和交互式网页应用的实际经验。",
+                            "province": "在线",
+                            "country": "",
+                            "institution": "HTML Academy",
+                            "tags": ["HTML", "CSS", "JavaScript", "响应式设计"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2022, "month": 4},
+                    "dateEnd": {"year": 2022, "month": 12},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIconColor": "#10b981",
+
+                    "locales": {
+                        "en": {
+                            "title": "Web Development - ApprendreACoder",
+                            "description": "Comprehensive web development course covering front-end and back-end technologies. Learned modern frameworks and best practices for building scalable web applications.",
+                            "province": "Online",
+                            "country": "",
+                            "institution": "ApprendreACoder",
+                            "tags": ["Web Development", "Front-end", "Back-end", "Frameworks"]
+                        },
+
+                        "es": {
+                            "title": "Desarrollo Web - ApprendreACoder",
+                            "description": "Curso integral de desarrollo web que cubre tecnologías front-end y back-end. Aprendió frameworks modernos y mejores prácticas para construir aplicaciones web escalables.",
+                            "province": "En línea",
+                            "country": "",
+                            "institution": "ApprendreACoder",
+                            "tags": ["Desarrollo Web", "Front-end", "Back-end", "Frameworks"]
+                        },
+
+                        "fr": {
+                            "title": "Développement Web - ApprendreACoder",
+                            "description": "Formation complète en développement web couvrant les technologies front-end et back-end. Apprentissage des frameworks modernes et des meilleures pratiques pour construire des applications web évolutives.",
+                            "province": "En ligne",
+                            "country": "",
+                            "institution": "ApprendreACoder",
+                            "tags": ["Développement Web", "Front-end", "Back-end", "Frameworks"]
+                        },
+
+                        "zh": {
+                            "title": "网页开发 - ApprendreACoder",
+                            "description": "全面的网页开发课程，涵盖前端和后端技术。学习现代框架和构建可扩展网页应用的最佳实践。",
+                            "province": "在线",
+                            "country": "",
+                            "institution": "ApprendreACoder",
+                            "tags": ["网页开发", "前端", "后端", "框架"]
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2021, "month": 10},
+                    "dateEnd": {"year": 2022, "month": 6},
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-chart-bar",
+                    "fallbackFaIconColor": "#8b5cf6",
+
+                    "locales": {
+                        "en": {
+                            "title": "Data Analytics - SkillFactory",
+                            "description": "Comprehensive data analytics program covering statistical analysis, data visualization, and business intelligence. Gained proficiency in analytical tools and data-driven decision making.",
+                            "province": "Online",
+                            "country": "",
+                            "institution": "SkillFactory",
+                            "tags": ["Data Analytics", "Statistics", "Data Visualization", "Business Intelligence"]
+                        },
+
+                        "es": {
+                            "title": "Análisis de Datos - SkillFactory",
+                            "description": "Programa integral de análisis de datos que cubre análisis estadístico, visualización de datos e inteligencia empresarial. Adquirió competencia en herramientas analíticas y toma de decisiones basada en datos.",
+                            "province": "En línea",
+                            "country": "",
+                            "institution": "SkillFactory",
+                            "tags": ["Análisis de Datos", "Estadísticas", "Visualización de Datos", "Inteligencia Empresarial"]
+                        },
+
+                        "fr": {
+                            "title": "Data Analytics - SkillFactory",
+                            "description": "Programme complet d'analyse de données couvrant l'analyse statistique, la visualisation de données et l'intelligence d'affaires. Acquisition de compétences en outils analytiques et prise de décision basée sur les données.",
+                            "province": "En ligne",
+                            "country": "",
+                            "institution": "SkillFactory",
+                            "tags": ["Data Analytics", "Statistiques", "Visualisation de Données", "Intelligence d'Affaires"]
+                        },
+
+                        "zh": {
+                            "title": "数据分析 - SkillFactory",
+                            "description": "全面的数据分析课程，涵盖统计分析、数据可视化和商业智能。掌握分析工具和数据驱动决策的技能。",
+                            "province": "在线",
+                            "country": "",
+                            "institution": "SkillFactory",
+                            "tags": ["数据分析", "统计学", "数据可视化", "商业智能"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

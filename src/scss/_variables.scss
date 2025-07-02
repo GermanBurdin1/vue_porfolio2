@@ -1,0 +1,137 @@
+/** Font Awesome webfonts path **/
+$fa-font-path:"@fortawesome/fontawesome-free/webfonts";
+
+/** Overriding Bootstrap's contrast ratio. **/
+$min-contrast-ratio: 1.5 !default;
+
+/** Typography **/
+$font-family-base: 'Saira', sans-serif;
+
+/** Z-Indexes **/
+$z-index-sidebar: 90;
+$z-index-tab-controller: 95;
+$z-index-loader: 99999;
+
+/** Bootstrap Colors - Modern Blue/Green Theme **/
+$primary: #2563eb;
+$secondary: #059669;
+$dark: #1e293b;
+$success: #10b981;
+$danger: #ef4444;
+$warning: #f59e0b;
+$info: #06b6d4;
+$light: #f8fafc;
+
+/** Layout Colors **/
+$default-section-background: #f1f5f9;
+$loader-background: #1e293b;
+$text-default-color: #0f172a;
+
+/** Nav Colors - Dark Blue Theme **/
+$nav-background: #1e293b;
+$nav-background-selected: lighten($nav-background, 8%);
+$nav-avatar-border-color: #3b82f6;
+$nav-highlight: #60a5fa;
+$nav-hover: #3b82f6;
+$nav-selected: #2563eb;
+$nav-contrast: #f8fafc;
+$nav-contrast-90: rgba($nav-contrast, 0.9);
+$nav-contrast-80: rgba($nav-contrast, 0.8);
+$nav-contrast-70: rgba($nav-contrast, 0.7);
+$nav-contrast-60: rgba($nav-contrast, 0.6);
+$nav-contrast-50: rgba($nav-contrast, 0.5);
+$nav-contrast-40: rgba($nav-contrast, 0.4);
+$nav-contrast-30: rgba($nav-contrast, 0.3);
+$nav-contrast-20: rgba($nav-contrast, 0.2);
+$nav-contrast-10: rgba($nav-contrast, 0.1);
+
+/** Light Shades **/
+$light-1: #f8fafc;
+$light-2: #e2e8f0;
+$light-3: #cbd5e1;
+$light-4: #94a3b8;
+$light-5: #64748b;
+$light-6: #475569;
+$light-7: #334155;
+
+$light-shades-palette: (
+    $light-1,
+    $light-2,
+    $light-3,
+    $light-4,
+    $light-5,
+    $light-6,
+    $light-7,
+);
+
+/** Layout Constraints **/
+$navigation-sidebar-breakpoint: "lg";
+$max-content-width: 2500px;
+$default-border-radius: 12px;
+
+/** Layout Constraints - Sidebar **/
+$nav-sidebar-width: 320px;
+$nav-sidebar-width-lg: 290px;
+$nav-sidebar-width-shrink: 120px;
+
+/** Layout Constraints - Sidebar Footer **/
+$nav-sidebar-footer-height: 100px;
+$nav-sidebar-footer-height-compressed: 60px;
+$nav-sidebar-footer-compress-screen-height: 560px;
+
+/** Layout Constraints - Mobile Navigation **/
+$nav-tab-controller-height: 60px;
+$nav-tab-controller-with-bottom-offset-height: 65px;
+$nav-section-picker-height: 50px;
+$nav-section-picker-height-compressed: 45px;
+
+/** ArticleTimeline Parameters **/
+$article-timeline-image-size: 100px;
+$article-timeline-image-size-md: 75px;
+$article-timeline-image-size-sm: 50px;
+
+$article-timeline-border-width: 7px;
+$article-timeline-border-width-md: 6px;
+$article-timeline-border-width-sm: 5px;
+
+$article-timeline-border-color: $light-3;
+$article-timeline-line-color: $light-4;
+$article-timeline-line-width: 3px;
+
+/** ArticleThread Parameters **/
+$article-thread-scale-multipliers: (
+    xxxl: 1,
+    xxl: 0.975,
+    xl: 0.95,
+    md: 0.9,
+    sm: 0.8
+);
+$article-thread-line-color: $article-timeline-line-color;
+$article-thread-circle-base-size: 32px;
+
+/** Chart JS Customization **/
+:root {
+    --chart-js-border-color: #{$default-section-background};
+    --chart-js-hover-border-color: #{$light};
+    --nav-background-color: #{$nav-background};
+}
+
+/** Typography - Multipliers (Headers) **/
+$headings-breakpoint-multipliers: (
+    xxxl: 1,
+    xxl: 0.95,
+    xl: 0.925,
+    lg: 0.875,
+    md: 0.825,
+    sm: 0.75
+);
+
+/** Typography - Multipliers (Texts) **/
+$texts-breakpoint-multipliers: (
+    xxxl: 1,
+    xxl: 0.95,
+    xl: 0.925,
+    lg: 0.9,
+    md: 0.875,
+    sm: 0.85
+);

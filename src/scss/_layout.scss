@@ -1,0 +1,180 @@
+@import "./_theming.scss";
+
+/* ========================================================== */
+/* Basic layout for the whole application                   */
+/* ========================================================== */
+
+/* Base styles */
+body {
+    background-color: $loader-background;
+    font-family: $font-family-base;
+    color: $text-default-color;
+    overflow-x: hidden;
+}
+
+/* Main container */
+#app {
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Section styling */
+.section {
+    background-color: $default-section-background;
+    border-radius: $default-border-radius;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        transform: translateY(-2px);
+    }
+
+    @include media-breakpoint-down($navigation-sidebar-breakpoint) {
+        border-radius: 0;
+        margin-bottom: 0;
+        box-shadow: none;
+        
+        &:hover {
+            transform: none;
+            box-shadow: none;
+        }
+    }
+}
+
+/* Card components */
+.card {
+    border: none;
+    border-radius: $default-border-radius;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        transform: translateY(-1px);
+    }
+}
+
+/* Buttons */
+.btn {
+    border-radius: $default-border-radius;
+    transition: all 0.3s ease;
+    font-weight: 600;
+
+    &.btn-primary {
+        background: linear-gradient(135deg, $primary 0%, lighten($primary, 10%) 100%);
+        border: none;
+        box-shadow: 0 2px 4px rgba($primary, 0.3);
+
+        &:hover {
+            background: linear-gradient(135deg, darken($primary, 5%) 0%, $primary 100%);
+            box-shadow: 0 4px 8px rgba($primary, 0.4);
+            transform: translateY(-1px);
+        }
+    }
+
+    &.btn-secondary {
+        background: linear-gradient(135deg, $secondary 0%, lighten($secondary, 10%) 100%);
+        border: none;
+        box-shadow: 0 2px 4px rgba($secondary, 0.3);
+
+        &:hover {
+            background: linear-gradient(135deg, darken($secondary, 5%) 0%, $secondary 100%);
+            box-shadow: 0 4px 8px rgba($secondary, 0.4);
+            transform: translateY(-1px);
+        }
+    }
+}
+
+/* Form controls */
+.form-control {
+    border-radius: $default-border-radius;
+    border: 2px solid $light-3;
+    transition: all 0.3s ease;
+
+    &:focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
+    }
+}
+
+/* Progressive enhancement for touch devices */
+@media (hover: hover) {
+    .interactive-element {
+        transition: all 0.3s ease;
+        
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
+}
+
+/* Responsive adjustments */
+@include media-breakpoint-down(md) {
+    .section {
+        padding: 1.5rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .section {
+        padding: 1rem;
+    }
+}
+
+/* Animation classes */
+.fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+/** ------------ BODY ----------------- **/
+html {
+    scroll-padding-top: 0;
+}
+
+body.body-default {
+    background-color: $default-section-background;
+}
+
+body.body-nav-contrast {
+    background-color: darken($nav-background, 3%)!important;
+}
+
+body.body-no-scroll {
+    overflow-y: hidden!important;
+    @include media-breakpoint-down(lg) {
+        position: fixed!important;
+    }
+}
+
+/** ----------- SELECTION ------------- **/
+::-moz-selection {
+    color: $dark;
+    background: lighten($primary, 15%);
+}
+
+::selection {
+    color: $dark;
+    background: lighten($primary, 15%);
+}
+
+/** ----------- SHADOWS ---------------- **/
+.trace-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px, rgba(10, 10, 10, 0.15) 10px 10px;
+}

@@ -1,0 +1,99 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleProfile",
+            "locales": {
+                "en": {
+                    "title": "Full Stack Developer",
+                    "description": "Passionate <strong>Full Stack Developer</strong> currently pursuing professional certification in Web and Mobile Web Development. Combining technical expertise in modern technologies with strong analytical skills and multilingual communication abilities. Experienced in both front-end and back-end development, with a proven track record of adaptability and continuous learning.",
+                    "shortDescription": "Full Stack Developer with expertise in modern web technologies and strong problem-solving skills."
+                },
+                "es": {
+                    "title": "Desarrollador Full Stack",
+                    "description": "<strong>Desarrollador Full Stack</strong> apasionado actualmente cursando certificación profesional en Desarrollo Web y Web Móvil. Combinando experiencia técnica en tecnologías modernas con fuertes habilidades analíticas y capacidades de comunicación multilingüe. Experimentado tanto en desarrollo front-end como back-end, con un historial comprobado de adaptabilidad y aprendizaje continuo.",
+                    "shortDescription": "Desarrollador Full Stack con experiencia en tecnologías web modernas y fuertes habilidades de resolución de problemas."
+                },
+                "fr": {
+                    "title": "Développeur Full Stack",
+                    "description": "<strong>Développeur Full Stack</strong> passionné actuellement en formation pour une certification professionnelle en Développement Web et Web Mobile. Alliant expertise technique en technologies modernes avec de solides compétences analytiques et des capacités de communication multilingue. Expérimenté en développement front-end et back-end, avec un parcours prouvé d'adaptabilité et d'apprentissage continu.",
+                    "shortDescription": "Développeur Full Stack avec expertise en technologies web modernes et fortes compétences en résolution de problèmes."
+                },
+                "zh": {
+                    "title": "全栈开发者",
+                    "description": "热情的<strong>全栈开发者</strong>，目前正在攻读网页和移动网页开发的专业认证。将现代技术的技术专长与强大的分析技能和多语言交流能力相结合。在前端和后端开发方面经验丰富，具有适应性强和持续学习的良好记录。",
+                    "shortDescription": "全栈开发者，具备现代网页技术专长和强大的问题解决能力。"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "locales": {
+                        "en": {
+                            "title": "Currently in Work-Study Program",
+                            "description": "Developing web and mobile solutions for dynamic display at ScreenSoft while pursuing RNCP certification in Web Development at Metz Numeric School."
+                        },
+                        "es": {
+                            "title": "Actualmente en Programa de Alternancia",
+                            "description": "Desarrollando soluciones web y móviles para visualización dinámica en ScreenSoft mientras curso la certificación RNCP en Desarrollo Web en Metz Numeric School."
+                        },
+                        "fr": {
+                            "title": "Actuellement en Alternance",
+                            "description": "Développement de solutions web et mobiles pour l'affichage dynamique chez ScreenSoft tout en poursuivant la certification RNCP en Développement Web à Metz Numeric School."
+                        },
+                        "zh": {
+                            "title": "目前在工学交替项目",
+                            "description": "在ScreenSoft开发动态显示的网页和移动解决方案，同时在梅斯数字学院攻读网页开发RNCP认证。"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "locales": {
+                        "en": {
+                            "title": "Multilingual Professional",
+                            "description": "Fluent in French (native), Russian, English (B2), and Spanish with proven experience in international environments and cross-cultural communication."
+                        },
+                        "es": {
+                            "title": "Profesional Multilingüe",
+                            "description": "Fluido en francés (nativo), ruso, inglés (B2) y español con experiencia comprobada en entornos internacionales y comunicación intercultural."
+                        },
+                        "fr": {
+                            "title": "Professionnel Multilingue",
+                            "description": "Maîtrise du français (natif), russe, anglais (B2) et espagnol avec une expérience prouvée dans des environnements internationaux et la communication interculturelle."
+                        },
+                        "zh": {
+                            "title": "多语言专业人士",
+                            "description": "精通法语（母语）、俄语、英语（B2）和西班牙语，在国际环境和跨文化交流方面具有丰富经验。"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "locales": {
+                        "en": {
+                            "title": "Continuous Learner",
+                            "description": "Self-motivated with a passion for exploring new technologies, from data analytics to modern web frameworks, demonstrated through various online certifications."
+                        },
+                        "es": {
+                            "title": "Aprendiz Continuo",
+                            "description": "Automotivado con pasión por explorar nuevas tecnologías, desde análisis de datos hasta frameworks web modernos, demostrado a través de varias certificaciones en línea."
+                        },
+                        "fr": {
+                            "title": "Apprenant Continu",
+                            "description": "Auto-motivé avec une passion pour l'exploration de nouvelles technologies, de l'analyse de données aux frameworks web modernes, démontré par diverses certifications en ligne."
+                        },
+                        "zh": {
+                            "title": "持续学习者",
+                            "description": "自我激励，热衷于探索新技术，从数据分析到现代网页框架，通过各种在线认证得到证明。"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

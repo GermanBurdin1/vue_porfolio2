@@ -1,0 +1,105 @@
+{
+    "name": "Germain BURDIN",
+    "profilePictureUrl": "images/pictures/avatar.jpg",
+
+    "locales": {
+        "en": {
+            "role": "Full Stack Developer"
+        },
+
+        "es": {
+            "role": "Desarrollador Full Stack"
+        },
+
+        "fr": {
+            "role": "Développeur Full Stack"
+        },
+
+        "zh": {
+            "name": "热尔曼·布尔丹",
+            "role": "全栈开发者"
+        }
+    },
+
+    "contactOptions": [
+        {
+            "id": "address",
+            "faIcon": "fa-regular fa-map",
+            "href": null,
+            "locales": {
+                "en": {
+                    "value": "Metz, France",
+                    "valueShort": "Metz, France"
+                },
+                "es": {
+                    "value": "Metz, Francia",
+                    "valueShort": "Metz, Francia"
+                },
+                "fr": {
+                    "value": "Metz, France",
+                    "valueShort": "Metz, France"
+                },
+                "zh": {
+                    "value": "法国梅斯",
+                    "valueShort": "法国梅斯"
+                }
+            }
+        },
+
+        {
+            "id": "email",
+            "value": "germanburdin10@gmail.com",
+            "valueShort": "germanburdin10@gmail.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:germanburdin10@gmail.com"
+        },
+
+        {
+            "id": "github",
+            "value": "@germanburdin",
+            "valueShort": "@germanburdin",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/germanburdin"
+        },
+
+        {
+            "id": "linkedin",
+            "value": "Germain BURDIN",
+            "valueShort": "Germain BURDIN",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://linkedin.com/in/germain-burdin"
+        },
+
+        {
+            "id": "phone",
+            "value": "+33 6 75 73 84 95",
+            "valueShort": "06 75 73 84 95",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:+33675738495"
+        },
+
+        {
+            "id": "mobility",
+            "faIcon": "fa-solid fa-car",
+            "href": null,
+            "locales": {
+                "en": {
+                    "value": "Driving license B + vehicle; mobility throughout France",
+                    "valueShort": "Mobile throughout France"
+                },
+                "es": {
+                    "value": "Licencia B + vehículo; movilidad en toda Francia",
+                    "valueShort": "Móvil en toda Francia"
+                },
+                "fr": {
+                    "value": "Permis B + véhicule; mobilité sur toute la France",
+                    "valueShort": "Mobilité France entière"
+                },
+                "zh": {
+                    "value": "B类驾照+车辆；可在法国全境工作",
+                    "valueShort": "可在法国全境工作"
+                }
+            }
+        }
+    ]
+}

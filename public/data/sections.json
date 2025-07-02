@@ -1,0 +1,173 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card",
+            "type": "centered",
+            "locales": {
+                "en": {
+                    "title": "Welcome to *my resume!*",
+                    "title_short": "Welcome!",
+                    "description": null,
+                    "nav_label": "About"
+                },
+                "es": {
+                    "title": "¡Bienvenido a *mi CV!*",
+                    "title_short": "Bienvenido!",
+                    "description": null,
+                    "nav_label": "Acerca de"
+                },
+                "fr": {
+                    "title": "Bienvenue sur *mon CV!*",
+                    "title_short": "Bienvenue !",
+                    "description": null,
+                    "nav_label": "À propos"
+                },
+                "zh": {
+                    "title": "欢迎来到我的*简历！*",
+                    "title_short": "欢迎！",
+                    "description": null,
+                    "nav_label": "关于"
+                }
+            }
+        },
+
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Education* Background",
+                    "title_short": null,
+                    "description": "A glimpse into my academic trajectory and accomplishments.",
+                    "nav_label": "Education"
+                },
+                "es": {
+                    "title": "Antecedentes *Educativos*",
+                    "title_short": null,
+                    "description": "Un vistazo a mi trayectoria académica y logros.",
+                    "nav_label": "Educación"
+                },
+                "fr": {
+                    "title": "Parcours *Éducatif*",
+                    "title_short": null,
+                    "description": "Un aperçu de mon parcours académique et de mes réalisations.",
+                    "nav_label": "Éducation"
+                },
+                "zh": {
+                    "title": "*教育* 背景",
+                    "title_short": null,
+                    "description": "一瞥我的学术轨迹和成就。",
+                    "nav_label": "教育背景"
+                }
+            }
+        },
+
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "fa-solid fa-tools",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": "Exploring the diverse range of skills I've acquired and developed:",
+                    "nav_label": "Skills"
+                },
+                "es": {
+                    "title": "Conjunto de *Habilidades*",
+                    "title_short": null,
+                    "description": "Explorando la diversidad de habilidades que he adquirido y desarrollado:",
+                    "nav_label": "Habilidades"
+                },
+                "fr": {
+                    "title": "Ensemble de *Compétences*",
+                    "title_short": null,
+                    "description": "Exploration de la gamme variée de compétences que j'ai acquises et développées:",
+                    "nav_label": "Compétences"
+                },
+                "zh": {
+                    "title": "*技能* 集",
+                    "title_short": null,
+                    "description": "探索我所掌握和发展的多样技能:",
+                    "nav_label": "技能"
+                }
+            }
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Professional* Experience",
+                    "title_short": null,
+                    "description": "A look into my work experience and career journey.",
+                    "nav_label": "Experience"
+                },
+                "es": {
+                    "title": "Experiencia *Profesional*",
+                    "title_short": null,
+                    "description": "Un vistazo a mi experiencia laboral y trayectoria profesional.",
+                    "nav_label": "Experiencia"
+                },
+                "fr": {
+                    "title": "Expérience *Professionnelle*",
+                    "title_short": null,
+                    "description": "Un aperçu de mon expérience professionnelle et de mon parcours de carrière.",
+                    "nav_label": "Expérience"
+                },
+                "zh": {
+                    "title": "*专业* 经验",
+                    "title_short": null,
+                    "description": "了解我的工作经验和职业之旅。",
+                    "nav_label": "工作经历"
+                }
+            }
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "contact",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-solid fa-phone",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "Get in *Touch!*",
+                    "title_short": null,
+                    "description": "Feel free to contact me if you have any questions or if you'd like to discuss potential opportunities.",
+                    "nav_label": "Contact"
+                },
+                "es": {
+                    "title": "¡Ponte en *Contacto!*",
+                    "title_short": null,
+                    "description": "No dudes en contactarme si tienes alguna pregunta o si te gustaría discutir oportunidades potenciales.",
+                    "nav_label": "Contacto"
+                },
+                "fr": {
+                    "title": "Contactez-*moi !*",
+                    "title_short": null,
+                    "description": "N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez discuter d'opportunités potentielles.",
+                    "nav_label": "Contact"
+                },
+                "zh": {
+                    "title": "联系*我！*",
+                    "title_short": null,
+                    "description": "如果您有任何问题或想讨论潜在机会，请随时联系我。",
+                    "nav_label": "联系我"
+                }
+            }
+        }
+    ]
+}

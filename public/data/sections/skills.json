@@ -1,0 +1,315 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Technical Skills",
+                    "description": "Comprehensive full-stack development capabilities spanning front-end, back-end, and development tools."
+                },
+                "es": {
+                    "title": "Habilidades Técnicas",
+                    "description": "Capacidades integrales de desarrollo full-stack que abarcan front-end, back-end y herramientas de desarrollo."
+                },
+                "fr": {
+                    "title": "Compétences Techniques",
+                    "description": "Compétences complètes en développement full-stack couvrant le front-end, le back-end et les outils de développement."
+                },
+                "zh": {
+                    "title": "技术技能",
+                    "description": "全面的全栈开发能力，涵盖前端、后端和开发工具。"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-server",
+                    "fallbackFaIconColor": "#8b5cf6",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Back-end Development",
+                            "description": "Proficient in server-side technologies including PHP, Symfony framework, Python, and SQL database management.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Desarrollo Back-end",
+                            "description": "Competente en tecnologías del lado del servidor incluyendo PHP, framework Symfony, Python y gestión de bases de datos SQL.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Développement Back-end",
+                            "description": "Compétent en technologies côté serveur incluant PHP, framework Symfony, Python et gestion de bases de données SQL.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "后端开发",
+                            "description": "熟练掌握服务器端技术，包括PHP、Symfony框架、Python和SQL数据库管理。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-laptop-code",
+                    "fallbackFaIconColor": "#10b981",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Front-end Development",
+                            "description": "Expert in modern front-end technologies: CSS3, HTML5, JavaScript, TypeScript, React, and Angular frameworks.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Desarrollo Front-end",
+                            "description": "Experto en tecnologías front-end modernas: CSS3, HTML5, JavaScript, TypeScript, React y frameworks Angular.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Développement Front-end",
+                            "description": "Expert en technologies front-end modernes : CSS3, HTML5, JavaScript, TypeScript, React et frameworks Angular.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "前端开发",
+                            "description": "精通现代前端技术：CSS3、HTML5、JavaScript、TypeScript、React和Angular框架。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-tools",
+                    "fallbackFaIconColor": "#f59e0b",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Development Tools",
+                            "description": "Skilled with essential development tools including Git version control and PhpMyAdmin for database administration.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Herramientas de Desarrollo",
+                            "description": "Hábil con herramientas esenciales de desarrollo incluyendo control de versiones Git y PhpMyAdmin para administración de bases de datos.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Outils de Développement",
+                            "description": "Compétent avec les outils de développement essentiels incluant le contrôle de version Git et PhpMyAdmin pour l'administration de bases de données.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "开发工具",
+                            "description": "熟练使用核心开发工具，包括Git版本控制和PhpMyAdmin数据库管理。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-chart-bar",
+                    "fallbackFaIconColor": "#dc2626",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Business Applications",
+                            "description": "Experienced with professional applications: Figma for design, Google Sheets & Analytics, Excel, Notion, and Power BI with DAX.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Aplicaciones Empresariales",
+                            "description": "Experimentado con aplicaciones profesionales: Figma para diseño, Google Sheets y Analytics, Excel, Notion y Power BI con DAX.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Applications Métier",
+                            "description": "Expérimenté avec les applications professionnelles : Figma pour le design, Google Sheets et Analytics, Excel, Notion et Power BI avec DAX.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "商业应用",
+                            "description": "熟练使用专业应用：Figma设计、Google Sheets和Analytics、Excel、Notion以及带DAX的Power BI。",
+                            "level": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Languages & Soft Skills",
+                    "description": "Multilingual communication abilities and essential soft skills for effective collaboration."
+                },
+                "es": {
+                    "title": "Idiomas y Habilidades Blandas",
+                    "description": "Habilidades de comunicación multilingüe y habilidades blandas esenciales para la colaboración efectiva."
+                },
+                "fr": {
+                    "title": "Langues et Compétences Relationnelles",
+                    "description": "Capacités de communication multilingue et soft skills essentielles pour une collaboration efficace."
+                },
+                "zh": {
+                    "title": "语言与软技能",
+                    "description": "多语言沟通能力和有效协作的核心软技能。"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
+                "small_icons": false,
+                "chart": null
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-language",
+                    "fallbackFaIconColor": "#2563eb",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Multilingual Proficiency",
+                            "description": "Native French, fluent Russian, intermediate English (B2), and conversational Spanish. Strong cross-cultural communication skills.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Competencia Multilingüe",
+                            "description": "Francés nativo, ruso fluido, inglés intermedio (B2) y español conversacional. Fuertes habilidades de comunicación intercultural.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Compétences Multilingues",
+                            "description": "Français natif, russe confirmé, anglais intermédiaire (B2) et espagnol intermédiaire. Solides compétences en communication interculturelle.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "多语言能力",
+                            "description": "法语母语，俄语熟练，英语中级（B2），西班牙语对话水平。优秀的跨文化交流技能。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-lightbulb",
+                    "fallbackFaIconColor": "#f59e0b",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Curiosity & Learning",
+                            "description": "Naturally curious with a passion for continuous learning and exploring new technologies and methodologies.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Curiosidad y Aprendizaje",
+                            "description": "Naturalmente curioso con pasión por el aprendizaje continuo y la exploración de nuevas tecnologías y metodologías.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Curiosité et Apprentissage",
+                            "description": "Naturellement curieux avec une passion pour l'apprentissage continu et l'exploration de nouvelles technologies et méthodologies.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "好奇心与学习",
+                            "description": "天生好奇，热衷于持续学习和探索新技术与方法论。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-sync-alt",
+                    "fallbackFaIconColor": "#10b981",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Adaptability & Initiative",
+                            "description": "Highly adaptable to new environments and challenges, with strong initiative to drive projects forward proactively.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Adaptabilidad e Iniciativa",
+                            "description": "Altamente adaptable a nuevos entornos y desafíos, con fuerte iniciativa para impulsar proyectos de manera proactiva.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Adaptabilité et Initiative",
+                            "description": "Très adaptable aux nouveaux environnements et défis, avec une forte initiative pour faire avancer les projets de manière proactive.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "适应性与主动性",
+                            "description": "对新环境和挑战适应性强，具有主动推进项目的强烈意识。",
+                            "level": null
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "dateStart": null,
+                    "img": null,
+                    "fallbackFaIcon": "fa-solid fa-tasks",
+                    "fallbackFaIconColor": "#8b5cf6",
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Organization & Productivity",
+                            "description": "Excellent work organization skills with a focus on productivity and efficiency in project management and task execution.",
+                            "level": null
+                        },
+                        "es": {
+                            "title": "Organización y Productividad",
+                            "description": "Excelentes habilidades de organización del trabajo con enfoque en productividad y eficiencia en gestión de proyectos y ejecución de tareas.",
+                            "level": null
+                        },
+                        "fr": {
+                            "title": "Organisation et Productivité",
+                            "description": "Excellentes compétences d'organisation du travail avec un focus sur la productivité et l'efficacité dans la gestion de projet et l'exécution des tâches.",
+                            "level": null
+                        },
+                        "zh": {
+                            "title": "组织性与生产力",
+                            "description": "优秀的工作组织技能，专注于项目管理和任务执行的生产力和效率。",
+                            "level": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
