@@ -5,8 +5,8 @@
             "component": "ArticleProfile",
             "locales": {
                 "fr": {
-                    "title": "Bienvenue dans mon *portfolio* 🇫🇷",
-                    "description": "Je suis Germain BURDIN, développeur full-stack passionné actuellement en alternance chez Multimedia Concept. Spécialisé dans les technologies web modernes avec une solide expérience internationale. Découvrez mon parcours, mes compétences et mes projets développés avec Vue.js."
+                    "title": "Bienvenue dans mon *portfolio*",
+                    "description": "Je suis German BURDIN, développeur full-stack passionné actuellement en alternance chez Multimedia Concept. Spécialisé dans les technologies web modernes avec une solide expérience internationale. Découvrez mon parcours, mes compétences et mes projets développés avec Vue.js."
                 }
             },
             "settings": {
