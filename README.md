@@ -1,4 +1,4 @@
-# Vue Resume - Germain BURDIN
+# Vue Resume - German BURDIN
 
 Personal resume website built with **Vue 3** and **Bootstrap 5**.
 

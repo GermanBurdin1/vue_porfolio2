@@ -12,29 +12,38 @@ $z-index-sidebar: 90;
 $z-index-tab-controller: 95;
 $z-index-loader: 99999;
 
-/** Bootstrap Colors - Modern Blue/Green Theme **/
-$primary: #2563eb;
-$secondary: #059669;
-$dark: #1e293b;
-$success: #10b981;
-$danger: #ef4444;
-$warning: #f59e0b;
-$info: #06b6d4;
-$light: #f8fafc;
+/** Neon Color Palette **/
+$neon-cyan: #00ffff;
+$neon-pink: #ff00ff;
+$neon-green: #00ff00;
+$neon-blue: #0080ff;
+$neon-purple: #8000ff;
+$neon-yellow: #ffff00;
+$neon-orange: #ff8000;
+
+/** Bootstrap Colors - Neon Theme **/
+$primary: #00d4ff;
+$secondary: #ff0080;
+$dark: #0a0a1a;
+$success: #00ff80;
+$danger: #ff4080;
+$warning: #ff8000;
+$info: #00bfff;
+$light: #f0f8ff;
 
 /** Layout Colors **/
-$default-section-background: #f1f5f9;
-$loader-background: #1e293b;
-$text-default-color: #0f172a;
+$default-section-background: #0f0f1a;
+$loader-background: #050510;
+$text-default-color: #e0e8ff;
 
-/** Nav Colors - Dark Blue Theme **/
-$nav-background: #1e293b;
-$nav-background-selected: lighten($nav-background, 8%);
-$nav-avatar-border-color: #3b82f6;
-$nav-highlight: #60a5fa;
-$nav-hover: #3b82f6;
-$nav-selected: #2563eb;
-$nav-contrast: #f8fafc;
+/** Nav Colors - Cyberpunk Theme **/
+$nav-background: #080814;
+$nav-background-selected: rgba($neon-cyan, 0.1);
+$nav-avatar-border-color: $neon-cyan;
+$nav-highlight: $neon-pink;
+$nav-hover: $neon-cyan;
+$nav-selected: $primary;
+$nav-contrast: #ffffff;
 $nav-contrast-90: rgba($nav-contrast, 0.9);
 $nav-contrast-80: rgba($nav-contrast, 0.8);
 $nav-contrast-70: rgba($nav-contrast, 0.7);
@@ -45,14 +54,14 @@ $nav-contrast-30: rgba($nav-contrast, 0.3);
 $nav-contrast-20: rgba($nav-contrast, 0.2);
 $nav-contrast-10: rgba($nav-contrast, 0.1);
 
-/** Light Shades **/
-$light-1: #f8fafc;
-$light-2: #e2e8f0;
-$light-3: #cbd5e1;
-$light-4: #94a3b8;
-$light-5: #64748b;
-$light-6: #475569;
-$light-7: #334155;
+/** Light Shades - Neon Adjusted **/
+$light-1: #1a1a2e;
+$light-2: #16213e;
+$light-3: #0f3460;
+$light-4: #0e6ba8;
+$light-5: #00a8f3;
+$light-6: #00d4ff;
+$light-7: #b3f0ff;
 
 $light-shades-palette: (
     $light-1,
@@ -67,7 +76,7 @@ $light-shades-palette: (
 /** Layout Constraints **/
 $navigation-sidebar-breakpoint: "lg";
 $max-content-width: 2500px;
-$default-border-radius: 12px;
+$default-border-radius: 15px;
 
 /** Layout Constraints - Sidebar **/
 $nav-sidebar-width: 320px;
@@ -94,7 +103,7 @@ $article-timeline-border-width: 7px;
 $article-timeline-border-width-md: 6px;
 $article-timeline-border-width-sm: 5px;
 
-$article-timeline-border-color: $light-3;
+$article-timeline-border-color: $neon-cyan;
 $article-timeline-line-color: $light-4;
 $article-timeline-line-width: 3px;
 
@@ -112,8 +121,9 @@ $article-thread-circle-base-size: 32px;
 /** Chart JS Customization **/
 :root {
     --chart-js-border-color: #{$default-section-background};
-    --chart-js-hover-border-color: #{$light};
+    --chart-js-hover-border-color: #{$neon-cyan};
     --nav-background-color: #{$nav-background};
+    --neon-glow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }
 
 /** Typography - Multipliers (Headers) **/

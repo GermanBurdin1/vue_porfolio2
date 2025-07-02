@@ -1,23 +1,10 @@
 {
     "name": "Germain BURDIN",
-    "profilePictureUrl": "images/pictures/avatar.jpg",
+    "profilePictureUrl": "images/pictures/me.jpg",
 
     "locales": {
-        "en": {
-            "role": "Full Stack Developer"
-        },
-
-        "es": {
-            "role": "Desarrollador Full Stack"
-        },
-
         "fr": {
-            "role": "Développeur Full Stack"
-        },
-
-        "zh": {
-            "name": "热尔曼·布尔丹",
-            "role": "全栈开发者"
+            "role": "Développeur Full-Stack"
         }
     },
 
@@ -27,39 +14,27 @@
             "faIcon": "fa-regular fa-map",
             "href": null,
             "locales": {
-                "en": {
-                    "value": "Metz, France",
-                    "valueShort": "Metz, France"
-                },
-                "es": {
-                    "value": "Metz, Francia",
-                    "valueShort": "Metz, Francia"
-                },
                 "fr": {
                     "value": "Metz, France",
                     "valueShort": "Metz, France"
-                },
-                "zh": {
-                    "value": "法国梅斯",
-                    "valueShort": "法国梅斯"
                 }
             }
         },
 
         {
             "id": "email",
-            "value": "germanburdin10@gmail.com",
-            "valueShort": "germanburdin10@gmail.com",
+            "value": "germanburdin1@gmail.com",
+            "valueShort": "germanburdin1@gmail.com",
             "faIcon": "fa-regular fa-envelope",
-            "href": "mailto:germanburdin10@gmail.com"
+            "href": "mailto:germanburdin1@gmail.com"
         },
 
         {
             "id": "github",
-            "value": "@germanburdin",
-            "valueShort": "@germanburdin",
+            "value": "@germanburdin1",
+            "valueShort": "@germanburdin1",
             "faIcon": "fa-brands fa-github",
-            "href": "https://github.com/germanburdin"
+            "href": "https://github.com/germanburdin1"
         },
 
         {
@@ -83,21 +58,9 @@
             "faIcon": "fa-solid fa-car",
             "href": null,
             "locales": {
-                "en": {
-                    "value": "Driving license B + vehicle; mobility throughout France",
-                    "valueShort": "Mobile throughout France"
-                },
-                "es": {
-                    "value": "Licencia B + vehículo; movilidad en toda Francia",
-                    "valueShort": "Móvil en toda Francia"
-                },
                 "fr": {
-                    "value": "Permis B + véhicule; mobilité sur toute la France",
-                    "valueShort": "Mobilité France entière"
-                },
-                "zh": {
-                    "value": "B类驾照+车辆；可在法国全境工作",
-                    "valueShort": "可在法国全境工作"
+                    "value": "Permis B + véhicule ; mobilité France entière",
+                    "valueShort": "Mobile France entière"
                 }
             }
         }

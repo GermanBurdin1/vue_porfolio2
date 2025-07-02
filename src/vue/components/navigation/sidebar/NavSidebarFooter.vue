@@ -3,10 +3,7 @@
         <div class="nav-sidebar-footer-language-picker-wrapper">
             <LanguagePicker :shrink="shrink"/>
         </div>
-        <div v-if="!shrink"
-             class="nav-sidebar-footer-credits">
-            <span v-html="credits"/>
-        </div>
+        <!-- Credits removed for simplicity -->
     </div>
 </template>
 
@@ -14,7 +11,6 @@
 import LanguagePicker from "/src/vue/components/widgets/LanguagePicker.vue"
 
 const props = defineProps({
-    credits: String,
     shrink: Boolean
 })
 </script>

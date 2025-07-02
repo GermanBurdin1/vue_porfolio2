@@ -16,8 +16,7 @@
         </div>
 
         <!-- Footer -->
-        <NavSidebarFooter :shrink="toggled"
-                          :credits="localize(profile.locales, 'credits')"/>
+        <NavSidebarFooter :shrink="toggled"/>
     </nav>
 </template>
 
