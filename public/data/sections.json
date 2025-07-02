@@ -2,168 +2,82 @@
     "sections": [
         {
             "id": "cover",
-            "component": "Section",
-            "disabled": false,
-            "settings": {
-                "background_overlay": true,
-                "background_color": "transparent",
-                "background_image": null,
-                "background_opacity": 10,
-                "hide_sidebar": true,
-                "header_footer_enabled": false,
-                "footer_text_enabled": false,
-                "nav_enabled": false,
-                "logo_enabled": false,
-                "header_icons_enabled": false,
-                "section_wrapper_class": "",
-                "article_wrapper_class": "h-100vh flex-center"
-            },
-            "articles": [
-                {
-                    "id": 1,
-                    "component": "ArticleProfile",
-                    "locales": {
-                        "fr": {
-                            "title": "Bienvenue dans mon *portfolio*",
-                            "title_short": "Bienvenue!",
-                            "description": "Développé avec Vue.js par Germain BURDIN",
-                            "nav_label": "À propos"
-                        }
-                    }
+            "categoryId": "home",
+            "jsonPath": "/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card",
+            "type": "centered",
+            "locales": {
+                "fr": {
+                    "title": "Bienvenue dans mon *portfolio*",
+                    "title_short": "Bienvenue!",
+                    "description": "Développé avec Vue.js par Germain BURDIN",
+                    "nav_label": "À propos"
                 }
-            ]
+            }
         },
 
         {
             "id": "education",
-            "component": "Section",
-            "disabled": false,
-            "settings": {
-                "background_overlay": false,
-                "background_color": "transparent",
-                "background_image": null,
-                "background_opacity": 10,
-                "hide_sidebar": false,
-                "header_footer_enabled": true,
-                "footer_text_enabled": false,
-                "nav_enabled": true,
-                "logo_enabled": true,
-                "header_icons_enabled": true,
-                "section_wrapper_class": "",
-                "article_wrapper_class": ""
-            },
-            "articles": [
-                {
-                    "id": 1,
-                    "component": "ArticleTimeline",
-                    "locales": {
-                        "fr": {
-                            "title": "*Formation* et Certifications",
-                            "description": "Mon parcours éducatif et ma formation continue en développement web.",
-                            "nav_label": "Formation"
-                        }
-                    }
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "type": "column",
+            "locales": {
+                "fr": {
+                    "title": "*Formation* et Certifications",
+                    "title_short": null,
+                    "description": "Mon parcours éducatif et ma formation continue en développement web.",
+                    "nav_label": "Formation"
                 }
-            ]
+            }
         },
 
         {
             "id": "experience",
-            "component": "Section",
-            "disabled": false,
-            "settings": {
-                "background_overlay": false,
-                "background_color": "transparent",
-                "background_image": null,
-                "background_opacity": 10,
-                "hide_sidebar": false,
-                "header_footer_enabled": true,
-                "footer_text_enabled": false,
-                "nav_enabled": true,
-                "logo_enabled": true,
-                "header_icons_enabled": true,
-                "section_wrapper_class": "",
-                "article_wrapper_class": ""
-            },
-            "articles": [
-                {
-                    "id": 1,
-                    "component": "ArticleTimeline",
-                    "locales": {
-                        "fr": {
-                            "title": "*Expérience* Professionnelle",
-                            "description": "Mon parcours professionnel et mes expériences dans le développement web.",
-                            "nav_label": "Expérience"
-                        }
-                    }
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase",
+            "type": "column",
+            "locales": {
+                "fr": {
+                    "title": "*Expérience* Professionnelle",
+                    "title_short": null,
+                    "description": "Mon parcours professionnel et mes expériences dans le développement web.",
+                    "nav_label": "Expérience"
                 }
-            ]
+            }
         },
 
         {
             "id": "skills",
-            "component": "Section",
-            "disabled": false,
-            "settings": {
-                "background_overlay": false,
-                "background_color": "transparent",
-                "background_image": null,
-                "background_opacity": 10,
-                "hide_sidebar": false,
-                "header_footer_enabled": true,
-                "footer_text_enabled": false,
-                "nav_enabled": true,
-                "logo_enabled": true,
-                "header_icons_enabled": true,
-                "section_wrapper_class": "",
-                "article_wrapper_class": ""
-            },
-            "articles": [
-                {
-                    "id": 1,
-                    "component": "ArticleSkills",
-                    "locales": {
-                        "fr": {
-                            "title": "*Compétences* Techniques",
-                            "description": "Mes compétences en développement full-stack et technologies modernes.",
-                            "nav_label": "Compétences"
-                        }
-                    }
+            "categoryId": "showcase",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "fa-solid fa-tools",
+            "type": "column",
+            "locales": {
+                "fr": {
+                    "title": "*Compétences* Techniques",
+                    "title_short": null,
+                    "description": "Mes compétences en développement full-stack et technologies modernes.",
+                    "nav_label": "Compétences"
                 }
-            ]
+            }
         },
 
         {
             "id": "contact",
-            "component": "Section",
-            "disabled": false,
-            "settings": {
-                "background_overlay": false,
-                "background_color": "transparent",
-                "background_image": null,
-                "background_opacity": 10,
-                "hide_sidebar": false,
-                "header_footer_enabled": true,
-                "footer_text_enabled": false,
-                "nav_enabled": true,
-                "logo_enabled": true,
-                "header_icons_enabled": true,
-                "section_wrapper_class": "",
-                "article_wrapper_class": ""
-            },
-            "articles": [
-                {
-                    "id": 1,
-                    "component": "ArticleContactForm",
-                    "locales": {
-                        "fr": {
-                            "title": "*Contact*",
-                            "description": "N'hésitez pas à me contacter pour discuter de vos projets.",
-                            "nav_label": "Contact"
-                        }
-                    }
+            "categoryId": "contact",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-solid fa-phone",
+            "type": "column",
+            "locales": {
+                "fr": {
+                    "title": "*Contact*",
+                    "title_short": null,
+                    "description": "N'hésitez pas à me contacter pour discuter de vos projets.",
+                    "nav_label": "Contact"
                 }
-            ]
+            }
         }
     ]
 }

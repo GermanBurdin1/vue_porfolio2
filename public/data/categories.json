@@ -2,33 +2,33 @@
     "categories": [
         {
             "id": "home",
-            "iconName": "fa-solid fa-house",
+            "faIcon": "fa-solid fa-house",
             "locales": {
-                "en": { "title": "Home" }
+                "fr": { "title": "Accueil" }
             }
         },
 
         {
             "id": "background",
-            "iconName": "fa-solid fa-user",
+            "faIcon": "fa-solid fa-user",
             "locales": {
-                "en": { "title": "Background" }
+                "fr": { "title": "Parcours" }
             }
         },
 
         {
             "id": "showcase",
-            "iconName": "fa-solid fa-briefcase",
+            "faIcon": "fa-solid fa-briefcase",
             "locales": {
-                "en": { "title": "Skills" }
+                "fr": { "title": "Compétences" }
             }
         },
 
         {
             "id": "contact",
-            "iconName": "fa-solid fa-envelope",
+            "faIcon": "fa-solid fa-envelope",
             "locales": {
-                "en": { "title": "Contact" }
+                "fr": { "title": "Contact" }
             }
         }
     ]

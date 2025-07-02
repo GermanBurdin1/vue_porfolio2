@@ -4,10 +4,9 @@
             "id": 1,
             "component": "ArticleProfile",
             "locales": {
-                "en": {
-                    "title": "Développeur Full Stack",
-                    "description": "<strong>Développeur Full Stack</strong> passionné, actuellement en alternance chez ScreenSoft. Portfolio développé avec <strong>Vue.js</strong> et Bootstrap pour présenter mon parcours et mes compétences techniques.",
-                    "shortDescription": "Développeur Full Stack - Portfolio Vue.js"
+                "fr": {
+                    "title": "Bienvenue dans mon *portfolio* 🇫🇷",
+                    "description": "Je suis Germain BURDIN, développeur full-stack passionné actuellement en alternance chez Multimedia Concept. Spécialisé dans les technologies web modernes avec une solide expérience internationale. Découvrez mon parcours, mes compétences et mes projets développés avec Vue.js."
                 }
             },
             "settings": {
@@ -18,8 +17,8 @@
                 {
                     "id": 1,
                     "locales": {
-                        "en": {
-                            "title": "Alternance chez ScreenSoft 🚀",
+                        "fr": {
+                            "title": "Alternance chez Multimedia Concept 🚀",
                             "description": "Développement de solutions web et mobiles pour l'affichage dynamique tout en poursuivant ma certification RNCP à Metz Numeric School."
                         }
                     }
@@ -27,7 +26,7 @@
                 {
                     "id": 2,
                     "locales": {
-                        "en": {
+                        "fr": {
                             "title": "Profil Multilingue 🌍",
                             "description": "Français natif avec maîtrise du <strong>russe, anglais (B2) et espagnol</strong>. Expérience internationale et communication interculturelle."
                         }
@@ -36,7 +35,7 @@
                 {
                     "id": 3,
                     "locales": {
-                        "en": {
+                        "fr": {
                             "title": "Technologies & Apprentissage 💡",
                             "description": "Passionné par les nouvelles technologies : de l'analyse de données aux frameworks modernes. <strong>Vue.js, React, PHP, Python</strong> - toujours en apprentissage continu."
                         }

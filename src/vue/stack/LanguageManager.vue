@@ -77,7 +77,7 @@ const localizeDate = (dateOrString) => {
     if(typeof dateOrString === 'string')
         return `<strong>${localizeFromStrings(dateOrString)}</strong>`
 
-    const languageId = selectedLanguage.value?.id || defaultLanguage.value?.id || "en"
+    const languageId = selectedLanguage.value?.id || defaultLanguage.value?.id || "fr"
     const localeString = dateOrString.toLocaleString(
         String(languageId),
         { year: 'numeric', month: 'short'}

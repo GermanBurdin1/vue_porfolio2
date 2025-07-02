@@ -7,7 +7,7 @@
             "name": "Français",
             "id": "fr",
             "flagUrl": "images/flags/fr.png",
-            "default": true
+            "isDefault": true
         }
     ]
 }
