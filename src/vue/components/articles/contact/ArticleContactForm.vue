@@ -21,12 +21,14 @@
 import {computed, inject, onMounted, ref} from "vue"
 import {useEmails} from "/src/composables/emails.js"
 import {useUtils} from "/src/composables/utils.js"
+import {useMainStore} from "/src/stores/index.js"
 import Article from "/src/vue/components/articles/base/Article.vue"
 import ArticleContactFormFields from "/src/vue/components/articles/contact/ArticleContactFormFields.vue"
 import ArticleContactFormThankYou from "/src/vue/components/articles/contact/ArticleContactFormThankYou.vue"
 
 const emails = useEmails()
 const utils = useUtils()
+const store = useMainStore()
 
 const props = defineProps({
     /** @type {Article} **/
@@ -121,6 +123,16 @@ const _submit = async () => {
 
     const success = await emails.sendContact(name.value, email.value, subject.value, message.value)
     apiResponse.value = {success: success}
+
+    // Sauvegarde dans le store Pinia lors de l'envoi réussi
+    if (success) {
+        store.addContact({
+            name: name.value,
+            email: email.value,
+            subject: subject.value,
+            message: message.value
+        })
+    }
 
     scrollToTopOfCurrentSection()
     setSpinnerEnabled && setSpinnerEnabled(false)

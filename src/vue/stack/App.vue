@@ -5,7 +5,7 @@
                 <LanguageManager>
                     <LocationManager>
                         <ModalManager>
-                            <Resume/>
+                            <router-view />
                         </ModalManager>
                     </LocationManager>
                 </LanguageManager>
