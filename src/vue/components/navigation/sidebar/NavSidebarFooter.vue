@@ -3,12 +3,6 @@
         <div class="nav-sidebar-footer-language-picker-wrapper">
             <LanguagePicker :shrink="shrink"/>
         </div>
-        <div class="admin-link-wrapper">
-            <router-link to="/admin" class="admin-link">
-                <i class="fa-solid fa-cog me-1"></i>
-                Admin
-            </router-link>
-        </div>
         <!-- Credits removed for simplicity -->
     </div>
 </template>
@@ -42,21 +36,6 @@ div.nav-sidebar-footer-language-picker-wrapper {
     padding-bottom: 5px;
     @media (max-height: 650px) {
         padding-bottom: 0;
-    }
-}
-
-div.admin-link-wrapper {
-    padding-top: 10px;
-}
-
-a.admin-link {
-    color: $light-4;
-    text-decoration: none;
-    font-size: 0.85rem;
-    transition: color 0.2s ease;
-    
-    &:hover {
-        color: $primary;
     }
 }
 
