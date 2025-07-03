@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Resume from '/src/vue/stack/Resume.vue'
+import ResumeWrapper from '/src/vue/pages/ResumeWrapper.vue'
 import AdminPanel from '/src/vue/pages/AdminPanel.vue'
 
 // Создаем простые компоненты для дополнительных страниц
@@ -27,7 +27,7 @@ const routes = [
   {
     path: '/',
     name: 'Resume',
-    component: Resume
+    component: ResumeWrapper
   },
   {
     path: '/about',

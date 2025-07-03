@@ -1,6 +1,6 @@
 <template>
   <div class="admin-panel">
-    <div class="container">
+    <div class="container-fluid">
       <h1>Panneau d'administration</h1>
       <router-link to="/" class="btn btn-secondary mb-3">Retour au CV</router-link>
       
@@ -169,6 +169,7 @@ function formatDate(dateString) {
   padding: 20px 0;
   min-height: 100vh;
   background-color: #f8f9fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .crud-section {
