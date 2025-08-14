@@ -2,8 +2,6 @@
 
 Personal resume website built with **Vue 3** and **Bootstrap 5**.
 
-![Resume Preview](docs/assets/promo-1.png)
-
 ## Features
 
 - **Vue 3** with Composition API
